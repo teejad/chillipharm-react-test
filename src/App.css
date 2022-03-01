@@ -1,0 +1,71 @@
+
+:root {
+  --dark-grey: #303030;
+  --mid-grey: #606060;
+}
+
+:root {
+  --large-text: 26px;
+  --mid-text: 18px;
+  --body-header-text: 14px;
+  --body-text: 12px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: var(--large-text);
+  color: var(--dark-grey)
+}
+
+.title-small {
+  text-align: center;
+  font-size: var(--mid-text);
+  color: var(--mid-grey)
+}
+
+.asset-card {
+  display: inline-block;
+  min-height: 300px;
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.assets-container {
+  max-width: 816px;
+}
+
+.asset-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.asset-image{
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.asset-title {
+  font-size: var(--mid-text);
+}
+
+.tag-filter-container {
+  margin-top: 20px;
+}
